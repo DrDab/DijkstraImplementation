@@ -17,6 +17,6 @@ public class Vertex implements Comparable<Vertex>
     @Override
     public int compareTo(Vertex arg0)
     {
-        return Integer.compare(this.id, arg0.id);
+        return Integer.compare(this.distance, arg0.distance);
     }
 }
